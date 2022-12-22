@@ -1,6 +1,6 @@
 {
 	"name": "@nestjs-logger/stack",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "NestJS Stack logger",
 	"main": "index.js",
 	"types": "index.d.ts",

@@ -24,12 +24,21 @@ Anything that implements NestJS's `LoggerService` can be provided in the array.
 import { StackLogger } from '@nestjs-logger/stack';
 import { MySQLLogger } from '@nestjs-logger/mysql';
 import { FileLogger } from '@nestjs-logger/file';
+import { ConsoleLogger } from '@nestjs/common';
 
 const app = await NestFactory.create(AppModule, {
     logger: StackLogger.create([
-        console,
-        new MySQLLogger(),
-        new FileLogger(),
+        new ConsoleLogger(),
+        new MySQLLogger({
+            host: /* */
+            port: /* */
+            username: /* */
+            password: /* */
+            database: /* */
+        }),
+        new FileLogger({
+            directory: /* */,
+        }),
     ]),
 });
 ```
