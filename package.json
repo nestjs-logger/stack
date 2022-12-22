@@ -1,9 +1,12 @@
 {
 	"name": "@nestjs-logger/stack",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "NestJS Stack logger",
-	"main": "index.ts",
-	"scripts": {},
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nestjs-logger/stack.git"
