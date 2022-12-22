@@ -1,0 +1,25 @@
+{
+	"name": "@nestjs-logger/stack",
+	"version": "1.0.0",
+	"description": "NestJS Stack logger",
+	"main": "index.ts",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nestjs-logger/stack.git"
+	},
+	"keywords": [
+		"nestjs",
+		"logging",
+		"logger"
+	],
+	"author": "John Michael Manlupig",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nestjs-logger/stack/issues"
+	},
+	"homepage": "https://github.com/nestjs-logger/stack#readme",
+	"dependencies": {
+		"@nestjs/common": "^9.2.1"
+	}
+}
